@@ -1,2 +1,2 @@
 # SDP1
-Design patterns
+Go to master branch
