@@ -1,4 +1,4 @@
-public class IMAXMovieFactory extends MovieFactory{
+public class IMAXMovieFactory extends MovieFactory {
     @Override
     Movie createMovie() {
         return new IMAXMovie();
