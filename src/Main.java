@@ -3,10 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        CinemaConfig i1 = CinemaConfig.getInstance();
-        System.out.println(i1.toString());
-        CinemaConfig i2 = CinemaConfig.getInstance();
-        System.out.println(i2.toString());
+        MovieFactory RegularMovieFactory = new RegularMovieFactory();
+        Movie newMovie = RegularMovieFactory.createMovie();
+        System.out.println(newMovie.getType());
 
 
     }
