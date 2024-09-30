@@ -9,3 +9,6 @@ Abstract Factory Pattern. Two interfaces Button and textField were created. Then
 Then UIFactory interface was created. I created two classes DarkThemeFactory and LightThemeFactory that implement UIFactory. They produce themed UI components (concrete factories).
 MainApp class generates the UI components through the corresponding factory.
 
+Builder Pattern. I made TicketBooking fields and constructor private to enforce to use Builder. TicketBookingBuilder class contains setters, that return instance itself, and this allows chaining. Build method returns fully constructed TicketBooking object.
+
+Prototype Pattern. MovieSchedule class extends Clonable, and has method clone, that will be implemented by StandardSchedule class. StandardSchedule class has fields and constructoer, getters and setters. And implements clone method via super.clone() from Clonable interface.
